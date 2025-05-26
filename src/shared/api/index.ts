@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useTokenSlice } from "@/shared/api/useTokenSlice.ts";
 
-const ip = "192.168.1.154";
+const ip = "172.20.10.4";
 
 export const api = axios.create({
   baseURL: `http://${ip}:3000`,
